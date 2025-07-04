@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>متجر مشعل</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    margin: 0; padding: 0;
+    color: #333;
+  }
+  header {
+    background: #111;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+  .products {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ddd;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  .card h3 {
+    margin: 10px 0;
+    font-size: 22px;
+  }
+  .card p {
+    font-size: 16px;
+    color: #555;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    background: #0a74da;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .btn:hover {
+    background: #084d9a;
+  }
+  @media (max-width: 700px) {
+    .products {
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      width: 90%;
+    }
+  }
+</style>
+</head>
+<body>
+<header>متجر مشعل</header>
+<div class="container">
+  <div class="products">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="نتفلكس" />
+      <h3>حسابات نتفلكس</h3>
+      <p>حسابات نتفلكس عالية الجودة وبأسعار مناسبة.</p>
+      <a href="https://wa.me/966590733174" class="btn" target="_blank">اطلب عبر واتساب</a>
+    </div>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/TikTok_logo.svg/1200px-TikTok_logo.svg.png" alt="تيك توك" />
+      <h3>حسابات رباعية تيك توك</h3>
+      <p>حسابات تيك توك رباعية مميزة للاستخدام والتسويق.</p>
+      <a href="https://wa.me/966590733174" class="btn" target="_blank">اطلب عبر واتساب</a>
+    </div>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_shahid.png" alt="شاهد" />
+      <h3>اشتراك شاهد</h3>
+      <p>اشتراك شاهد VIP بجودة عالية وبسعر مميز.</p>
+      <a href="https://wa.me/966590733174" class="btn" target="_blank">اطلب عبر واتساب</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
